@@ -18,7 +18,7 @@ function addFruitToDropDown(item) {
     ddFruits.appendChild(el);
     // el.value = item.id; put primary key i value
     el.value = item; // why not put object in value?
-
+    el.className = item.style;
 }
 
 function fillDropDown() {
